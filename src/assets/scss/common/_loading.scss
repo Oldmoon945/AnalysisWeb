@@ -1,0 +1,24 @@
+.loadingBg {
+  background: rgba(54, 54, 54, 0.5);
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 99999;
+  .loadingInner {
+    bottom: 0;
+    height: 60px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 100px;
+  }
+}
+.NShow {
+  display: none;
+}
